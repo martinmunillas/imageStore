@@ -25,3 +25,5 @@ if you send a GET request to the path of a file, you'll get the file
 if you send a POST request and the request doesn't include a file, a new folder will be created in that path
 
 if you send a POST request and the request does include a file, the file will be stored at that path
+
+if you send a DELETE request to any path, the resource at that path will be deleted
